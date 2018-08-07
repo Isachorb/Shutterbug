@@ -1,0 +1,66 @@
+.container {
+	max-width: 928px;
+}
+
+/* Choose font later for h1, h2, p and a elements */
+
+.main {
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	height: 550px;
+	padding-top: 25px;
+	
+	}
+	.main h1 {
+		font-family: 'Verdana';
+		font-size: 60px;
+		
+	}
+	
+	.main a {
+		font-size: 20px;
+		margin-bottom: 40px;
+		font-family: 'Quicksand', sans serif;
+	}
+	
+	.btn {
+		background-color: blue;
+		border-radius: 34px;
+		color: white;
+		padding: 8px 40px;
+		transition: box-shadow 0.7s;
+		box-shadow: 1px 1px 2px black;
+	}
+	
+	.btn: hover {
+		
+	}
+	.section .row {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		border-bottom: 2px solid #dbdbdb;
+		
+	}
+	
+	.row p {
+		font-size: 26px;
+		font-family: 'Quicksand', sans serif;
+		}
+		.store {
+			text-align: center;
+			border-bottom: 1px solid #dbdbdb;
+			padding-bottom: 30px; 
+		}
+			
+	.footer h1 {
+			font-size: 18px;
+			
+		}
+	.footer ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+	.col-md-4 {
+		text-align: center;
+	}
+	
